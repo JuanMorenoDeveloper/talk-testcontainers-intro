@@ -79,6 +79,4 @@ There are implementations for Go, dotNet, Python, Node, and Rust.
 
 * Twitter: [@JuanMorenoDev](https://twitter.com/JuanMorenoDev)
 
-* Presentation link: [https://bit.ly/testcontainers-intro](https://bit.ly/testcontainers-intro) 
-
 * Github Repository: [https://github.com/JuanMorenoDeveloper/testcontainers-samples](https://github.com/JuanMorenoDeveloper/testcontainers-samples)
