@@ -47,7 +47,7 @@ There are implementations for Go, dotNet, Python, Node, and Rust.
 
 # @nnotations
 
-* [`@Testcontainers`](https://javadoc.io/doc/org.testcontainers/junit-jupiter/latest/org/testcontainers/junit/jupiter/Testcontainers.html): This annotation handles automatically the container’s lifecycle. It is in charge of start-up and closed-up every container in our tests.
+* [`@Testcontainers`](https://javadoc.io/doc/org.testcontainers/junit-jupiter/latest/org/testcontainers/junit/jupiter/Testcontainers.html): This annotation handles automatically the container’s lifecycle. It is in charge of start-up and closing up every container in our tests.
 
 * [`@Container`](https://javadoc.io/doc/org.testcontainers/junit-jupiter/latest/org/testcontainers/junit/jupiter/Container.html): Marks containers to be managed by the Testcontainers extension.
 
@@ -59,7 +59,7 @@ There are implementations for Go, dotNet, Python, Node, and Rust.
 
 * The [`withTmpFs`](https://javadoc.io/static/org.testcontainers/testcontainers/1.15.0-rc2/org/testcontainers/containers/GenericContainer.html#withTmpFs-java.util.Map -) option allows us to map the container volume to our host memory.
 
-* If we want to speed up our integration tests we can declare containers as static fields to share between tests. In our case, our test run on an average bellow to 150ms.
+* If we want to speed up our integration tests we can declare containers as static fields to share between tests. In our case, our test runs on an average below 150ms.
 
 # Conclusions 2/2
 
