@@ -27,7 +27,7 @@ According to the test levels pyramid of Mike Cohn; there are 3 main levels:
 Unit tests as a basis, and integration tests to verify interaction with external components outside the business logic.
 
 # Testcontainers  
-Testcontainers is a java library that we can use to run different testing frameworks (as JUnit or Spock) with docker containers. Docker as a developer tool, allows us to create easily environments with all its dependencies; they are light and runs quickly and, also are portable.
+Testcontainers is a java library that we can use to run different testing frameworks (as JUnit or Spock) with docker containers. Docker as a developer tool, allows us to create easily environments with all its dependencies; they are light and run quickly and, also are portable.
 
 # Not only Java
 
@@ -40,7 +40,7 @@ There are implementations for Go, dotNet, Python, Node, and Rust.
 * Kafka, MockServer, Solr, Vault...
 * GenericContainers 
 
-# Requirements for based applications
+# Requirements for common JVM applications
 
 * [Docker](https://www.testcontainers.org/supported_docker_environment/)
 * [junit-jupiter](https://search.maven.org/search?q=a:junit-jupiter%20AND%20g:org.testcontainers) for JUnit 5.
